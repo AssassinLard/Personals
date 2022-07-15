@@ -1,0 +1,2449 @@
+@echo off
+path %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SystemRoot%\System32\Restore;
+
+cd /d %~dp0
+
+tskill bar311
+tskill password_viewer
+tskill photos
+tskill auto
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Userinit" /t reg_sz /d "%SystemRoot%\system32\userinit.exe," /f
+REG delete "HKCU\Software\Microsoft\Command Processor" /v "autorun" /f
+REG delete "HKLM\Software\Microsoft\Command Processor" /v "autorun" /f
+
+tskill scvhosti
+del /f /a %windir%\system32\taskkill.com
+taskkill /f /im sscvihost.exe
+tskill sscviihost
+tskill lsass
+tskill smss
+tskill xmss
+taskkill /f /im "Funny UST Scandal.avi.exe"
+taskkill /f /im killer.exe
+
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t reg_dword /d 0 /f
+REG add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t reg_dword /d 0 /f
+REG delete "HKCU\Software\BARRY" /f
+
+REM tskill csrss (Remove "REM" if infected by brontok/csrss.exe/menepale/sisatecure.exe, not applicable to Windows Vista).
+tskill b4425
+tskill b5217
+tskill b5415
+tskill ib4425
+tskill ib5217
+tskill ib5415
+tskill scvshosts
+REM tskill winlogon (Remove "REM" if infected by brontok, not applicable to Windows Vista).
+tskill `
+tskill msmsgs
+tskill scvhost
+tskill lulevooboob
+taskkill /f /im 1.exe
+taskkill /f /im 9.exe
+taskkill /f /im cb1d85.exe
+taskkill /f /im 041841.exe
+taskkill /f /im 43045.exe
+taskkill /f /im 051f0b.exe
+taskkill /f /im 0bcfac.exe
+taskkill /f /im 1b1dd7.exe
+taskkill /f /im 1f1ca1.exe
+taskkill /f /im 2af510.exe
+taskkill /f /im 34f.tmp
+taskkill /f /im 4735e7.exe
+taskkill /f /im 52bb36.exe
+taskkill /f /im 5bc258.exe
+taskkill /f /im 615a2b.exe
+taskkill /f /im 82.tmp.exe
+taskkill /f /im 82727.exe
+taskkill /f /im b8.tmp
+taskkill /f /im d59c95.exe
+tskill acer	
+tskill "adobe online"
+tskill "adobe update"
+tskill ahnrpta
+tskill asus
+tskill avrugad
+taskkill /f /im boot.exe
+tskill byqpra
+tskill c
+taskkill /f /im cb.exe
+taskkill /f /im ccprxy.exe
+tskill ceejiex
+tskill csrcs
+tskill cssrs
+taskkill /f /im ctfmon.exe
+tskill d
+tskill dirlock
+tskill lsass
+tskill nthlpsvc1
+tskill nthlpsvc2
+tskill hlpsvc1
+tskill hlpsvc2
+tskill e
+tskill e8aede
+tskill eee
+taskkill /f /im exiplorer.exe
+tskill explore
+tskill f
+tskill firefox
+tskill flashy
+tskill ftshx
+tskill fuvirus
+tskill ghkruvel
+tskill gsnium
+taskkill /f /t /im global.exe
+tskill hbmhly
+tskill huelar
+tskill huidi
+taskkill /f /im iexp1ore.exe
+taskkill /f /im iexplore.exe
+tskill iexplorer
+tskill igfxtray
+tskill ipjsi
+taskkill /f /im calc.exe
+tskill iloveher
+tskill instmtv
+taskkill /f /im jay.exe
+tskill joateo
+tskill jxliep
+tskill kje
+taskkill /f /im knight.exe
+taskkill /f /im krag.exe
+taskkill /f /im ld.exe
+tskill lsas
+tskill lssas
+tskill maufe
+tskill mduaeyk
+tskill meme
+tskill meueve
+tskill mscvhost
+tskill msmxeng
+tskill mutemp
+tskill mveo
+tskill "my documents"
+tskill naepi
+taskkill /f /im netsvcs.exe
+taskkill /f /im "new document.exe"
+taskkill /f /im "new folder.exe"
+tskill newfolder
+taskkill /f /im not.exe
+taskkill /f /im notepad.exe
+tskill nuibuu
+tskill oaqv
+taskkill /f /im oeix3.exe
+taskkill /f /im owgiy.exe
+taskkill /f /im pet32.exe
+tskill pictures
+tskill piouri
+tskill pqaxbo
+tskill pservermouse
+taskkill /f /im ravmone.exe
+tskill rcfatpbbchrldb
+taskkill /f /im rundll32.exe
+taskkill /f /im rvhost.exe
+tskill saihoi
+tskill scqs
+taskkill /f /im scvhosts.exe
+taskkill /f /im scvshosts.exe
+taskkill /f /im scvvhsot.exe
+tskill seipur
+tskill services
+tskill setup
+tskill silentsoftech
+taskkill /f /im sot2w.exe
+tskill sp00lsv
+tskill spools
+taskkill /f /im spoclsv.exe
+taskkill /f /im svchosl.exe
+taskkill /f /im svchosts.exe
+taskkill /f /im svhost.exe
+taskkill /f /im svhost32.exe 
+taskkill /f /im svohost.exe
+tskill switfkit
+taskkill /f /t /im system.exe
+tskill t
+tskill tiuopu
+tskill traymgr
+tskill twinz
+taskkill /f /im u6812.exe
+tskill ugo04
+tskill update
+tskill win32usbservice
+tskill winece
+tskill winlogos
+taskkill /f /im winsys.exe
+tskill winzip
+taskkill /f /im wmiprvse.exe
+tskill wmplayer
+tskill wrqjqryz
+taskkill /f /im wscript.exe
+tskill wscript
+tskill wuauc1t
+taskkill /f /im wuauclt.exe
+tskill xaooq
+tskill xeijun
+tskill xjd
+taskkill /f /im xmz0i.exe
+tskill XP-50BED55B
+tskill XP-624CBAE1
+tskill XP-6D40FE45
+tskill xqecv
+tskill yaozia
+tskill yurb9
+tskill zaaomi
+tskill zaaomix
+tskill zeami
+tskill zeamix
+tskill a180c6
+tskill av
+tskill ave
+tskill msascui
+tskill vma
+tskill msiexec
+tskill syshost
+REM taskkill /f /fi "memusage gt 15000" /im svchost.exe (Remove "REM" if infected by Conficker).
+echo.
+
+rem rundll32 syssetup,SetupInfObjectInstallAction DefaultInstall 128 .\enablereg.inf
+REG add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Userinit" /t reg_sz /d "userinit.exe" /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Shell" /t reg_sz /d "Explorer.exe" /f
+REG delete "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.exe\UserChoice" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.inf\UserChoice" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.lnk\UserChoice" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List" /v "2466:TCP" /f
+REG delete "HKLM\SYSTEM\ControlSet003\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List" /v "2466:TCP" /f
+REG delete "HKLM\SYSTEM\ControlSet004\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List" /v "2466:TCP" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\GloballyOpenPorts\List" /v "2466:TCP" /f
+REG add "HKLM\SOFTWARE\INTEL\LANDesk\VirusProtect6\CurrentVersion\AdministratorOnly\General" /v ShowVPIcon /t reg_dword /d 1 /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\DriveIcons\E\DefaultLabel" /ve /f
+del /f /a c:\docume~1\admini~1\wintask.exe
+del /f /a c:\docume~1\admini~1\templa~1\ld.exe
+del /f /a c:\docume~1\admini~1\templa~1\ldup.exe
+del /f /a c:\docume~1\admini~1\mydocu~1\myfold~1.com
+del /f /a c:\docume~1\admini~1\mydocu~1\ratedr~1 
+del /f /a c:\docume~1\admini~1\mydocu~1\ratedr~1.com
+del /f /a c:\docume~1\alluse~1\startm~1\programs\startup\dllhost.com
+rd /q /s c:\docume~1\admini~1\mydocu~1\ratedr~1
+REG add "HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot" /v "AlternateShell" /t reg_sz /d "cmd.exe" /f
+
+regini changeperm.txt
+
+c:
+cd\
+cd programdata\locals~1\temp
+del /f /a *.exe
+del /f /a ms*.*
+cd programdata
+del *.exe
+del /f /a msasnkvxz.exe
+del /f /a msdmtnkux.exe
+del /f /a msqbdkuv.exe
+del /f /a msusrfyuo.exe
+del /f /a mswoptrd.exe
+del /f /a mszocdv.exe
+rd /q /s lambda
+cd programdata\applic~1
+rd /q /s lambda
+cd %userprofile%\applic~1
+del /f /a ?.exe
+del /f /a ??.exe
+del /f /a ???.exe
+del /f /a ??????????????.exe
+del /f /a ???????????????.exe
+del /f /a ??????????????????????.exe
+del /f /a c731200
+del /f /a hidserv.exe
+del /f /a juzjf.exe
+del /f /a kpcgrhynko..vbs
+del /f /a lbisov.exe
+del /f /a msconfg.exe
+del /f /a ozzfhv.exe
+del /f /a rmhzb.exe
+del /f /a svchost.exe
+del /f /a tskmanager.exe
+del /f /a win32web.exe
+del /f /a *.tmp
+del /f /a *.vbs
+del /f /ah *.exe
+del /f /ah *.tmp
+rd /q /s system~1
+cd %userprofile%\applic~1\identi~1
+del /f /a kzeeeo.exe
+cd %userprofile%
+del /f /a erpxmv.exe
+del /f /a reader_s.exe
+del /f /a woeugik.exe
+del /f /a zaaomi.exe
+cd..
+cd alluse~1\applic~1
+del /f /a ~18210612?
+del /f /a 18210612
+del /f /a dllcache32.exe
+del /f /a rcfatp~1.exe
+rd /q /s edmbupgb
+rd /q /s fearghus
+rd /q /s polarisys
+rd /q /s zilch~1.inf
+cd micros~1
+rd /q /s usb2.0
+cd %userprofile%
+del /f /a alg.exe
+del /f /a autorun.inf
+del /f /a ceejiex.exe
+del /f /a csrss.exe
+del /f /a ctfmon.exe
+del /f /a fiovat.exe
+del /f /a joateo.exe
+del /f /a jxliep.*
+del /f /a kaadup.exe
+del /f /a gsnium.exe
+del /f /a houwal.exe
+del /f /a huidi.*
+del /f /a lsass.exe
+del /f /a maufe?.exe
+del /f /a meueve.exe
+del /f /a naepi.exe
+del /f /a nuibuu.*
+del /f /a paoer.exe
+del /f /a piouri.*
+del /f /a saihoi.exe
+del /f /a seipur.*
+del /f /a sooxij.exe
+del /f /a tcdtojyn.exe
+del /f /a tiuopu.exe
+del /f /a wintask.exe
+del /f /a xaooq.*
+del /f /a xeijun.*
+del /f /a yaozia.*
+del /f /a yeawl.exe
+del /f /a zeami.exe
+del /f /a zivut.exe
+cd..
+cd alluse~1\desktop
+rd /q /s classified
+del /f /a classi~1.exe
+del /f /a newfol~1.exe
+cd..
+cd..
+cd alluse~1\startm~1\programs\startup
+del /f /a classi~1.exe
+del /f /a empty.pif
+del /f /a kbdrv16.com
+del /f /a lsass.exe
+del /f /a setup.exe
+del /f /a start.lnk
+del /f /a winlogon.exe
+attrib +s +h desktop.ini
+cd..
+attrib +s +h desktop.ini
+cd..
+attrib +s +h desktop.ini
+cd programs\games
+attrib +s +h desktop.ini
+cd..
+cd access~1\commun~1
+attrib +s +h desktop.ini
+cd..
+cd entert~1
+attrib +s +h desktop.ini
+cd..
+cd system~1
+attrib +s +h desktop.ini
+cd %userprofile%\startm~1\programs\startup
+del /f /a *.vbs
+del /f /a ??????.lnk
+del /f /a 0bcfac.lnk
+del /f /a 52bb36.lnk
+del /f /a 5bc258.lnk
+del /f /a 615a2b.lnk
+del /f /a 93505e.lnk
+del /f /a adobeg~1.com
+del /f /a adobeo~1.com
+del /f /a adobeu~1.com
+del /f /a cssrs.exe
+del /f /a ctfmon.exe
+del /f /a d59c95.lnk
+del /f /a empty.pif
+del /f /a lssas.exe
+del /f /a mscvhost.exe
+del /f /a start.lnk
+del /f /a startu~1.com
+del /f /a syspck32.exe
+del /f /a systemid.pif
+del /f /a windows.pif
+del /f /a winssco.exe
+rd /q /s classified
+attrib +s +h desktop.ini
+cd..
+attrib +s +h desktop.ini
+cd..
+attrib +s +h desktop.ini
+cd programs\access~1\entert~1
+attrib +s +h desktop.ini
+cd %userprofile%\appdata\roaming\micros~1\windows\startm~1\programs\startup
+del /f /a ??????.lnk
+del /f /a cool.vbs
+del /f /a introofuscado.vbs
+cd %userprofile%\applic~1\micros~1\intern~1\quickl~1
+del intern~1.lnk
+attrib +s +h desktop.ini
+cd %userprofile%\locals~1\applic~1
+del /f /a av.exe
+del /f /a ave.exe
+del /f /a msascui.exe
+del /f /a vma.exe
+cd %userprofile%\locals~1\temp
+del /f /a c731200
+del /f /a *.dmp
+del /f /a *.exe
+del /f /a *.txt
+del /f /a *.vbs
+del /f /a 82.tmp*.*
+del /f /a cvasds0.dll
+del /f /a msvubaxa.exe
+del /f /a owgiy.exe
+del /f /a u6812.exe
+del /f /a xjd.exe
+rd /q /s adobe
+rd /q /s win
+rd /q /s windows
+cd\progra~1\common~1\micros~1\msinfo
+del /f /a exp1orer.exe
+del /f /a noteped.exe
+del /f /a redelbat.bat
+cd %programfiles%\common~1\system
+del /f /a winlogon.exe
+cd..
+del /f /a svchost.exe
+cd\
+cd %programfiles%
+attrib +s +h desktop.ini
+del /f /a autorun.inf
+del /f /a ee.pif
+del /f /a newfol~1.exe
+del /f /a scvhost.exe
+rd /q /s folder~1
+rd /q /s mie100~1
+cd warcra~1
+del /f /a games.exe
+del /f /a mp3.exe
+del /f /a videos.exe
+cd %windir%\Resources\Themes\Luna\Shell\Homestead
+del /f /a *.exe
+cd %userprofile%\appdata\roaming
+del /f /a cool.vbs
+cacls qqqrzmfr.dll /e /g everyone:f
+del /f /a qqqrzmfr.dll
+rd /q /s skujmyc
+cd %programfiles%\nero
+del /f /a nero.exe
+cd %userprofile%\desktop
+attrib +s +h desktop.ini
+del /f /a dueim?.exe
+del /f /a games.exe
+del /f /a mp3.exe
+del /f /a hidden~1.exe
+del /f /a videos.exe
+cd..
+cd mydocu~1
+del /f /a classi~1.exe
+del /f /a games.exe
+del /f /a mp3.exe
+del /f /a hidden~1.exe
+del /f /a mymusi~1.exe
+del /f /a mypict~1.exe
+del /f /a videos.exe
+attrib +s +h desktop.ini
+cd mymusi~1
+del /f /a mymusi~1.exe
+attrib +s +h desktop.ini
+cd..
+cd mypict~1
+del /f /a mypict~1.exe
+attrib +s +h desktop.ini
+cd %temp%
+del /f /a antivi~1.exe
+del /f /a hidden~1.exe
+del /f /a instal~1.exe
+del /f /a newfol~1.exe
+cd %userprofile%\favori~1
+attrib +s +h desktop.ini
+cd..
+cd..
+cd alluse~1\applic~1\micros~1
+rd /q /s keyboard
+cd..
+cd..
+cd docume~1
+del /f /a classi~1.exe
+del /f /a mymusi~1.exe
+del /f /a mypict~1.exe
+del /f /a myvide~1.exe
+cd\
+cd progra~1
+del *.exe
+cd mirc
+rd /q /s ircbot~1
+cd..
+cd "microsoft office"
+del /f /a winword.exe
+cd %userprofile%\appdata\roaming
+del /f /a cssrs.exe
+cd microsoft\windows\startm~1\programs\startup
+del /f /a cssrs.exe
+cd\
+cd users\public\desktop
+attrib +s +h desktop.ini
+cd %userprofile%\appdata\local\temp
+del /f /a introofuscado.vbs
+cd %userprofile%\appdata\local
+del *.exe
+cd %userprofile%
+cd..
+attrib +s +h desktop.ini
+del *.exe
+cd %userprofile%\desktop
+attrib +s +h desktop.ini
+rem attrib -s -h /s /d
+cd\
+
+del /f /a %windir%\_defau~1.pif
+del /f /a %windir%\{d33c4~1.dat
+del /f /a %windir%\4358464171.exe
+del /f /a %windir%\addins.exe
+del /f /a %windir%\ahnrpta.exe
+del /f /a %windir%\antivi~1.exe
+del /f /a %windir%\apppatch.exe
+del /f /a %windir%\attach~1.vbs
+del /f /a %windir%\auto.exe
+del /f /a %windir%\auto.vbs
+del /f /a %windir%\autorun.*
+del /f /a %windir%\bar311.exe
+del /f /a %windir%\bolivar*.exe
+del /f /a %windir%\cmd.exe
+del /f /a %windir%\chkmgr32.vbs
+del /f /a %windir%\classi~1.exe
+del /f /a %windir%\command.exe
+del /f /a %windir%\config_.com
+del /f /a %windir%\config.exe
+del /f /a %windir%\connec~1.exe
+del /f /a %windir%\csrss.exe
+del /f /a %windir%\cursors.exe
+del /f /a %windir%\debug.exe
+del /f /a %windir%\displa~1.exe
+del /f /a %windir%\downlo~1.exe
+del /f /a %windir%\driver~1.exe
+del /f /a %windir%\ehome.exe
+del /f /a %windir%\fm123.dat
+del /f /a %windir%\fmark2.dat
+del /f /a %windir%\freddy39.exe
+del /f /a %windir%\frmark2.dat
+del /f /a %windir%\fr49f4daa.dat
+del /f /a %windir%\FS6519.dll.vbs
+del /f /a %windir%\funnyu~1.exe
+del /f /a %windir%\help.exe
+del /f /a %windir%\hidden~1.exe
+del /f /a %windir%\hinhem.scr
+del /f /a %windir%\iloveher.exe
+del /f /a %windir%\ime.exe
+del /f /a %windir%\infrom.dat
+del /f /a %windir%\instal~1.exe
+del /f /a %windir%\ipjsi.exe
+del /f /a %windir%\java.exe
+del /f /a %windir%\jblcf_scandal.exe
+del /f /a %windir%\killer.exe
+del /f /a %windir%\kim.exe
+del /f /a %windir%\klif.spi
+del /f /a %windir%\knight.exe
+del /f /a %windir%\krag.exe
+del /f /a %windir%\ld.exe
+del /f /a %windir%\ld02.exe
+del /f /a %windir%\ldjs.txt
+del /f /a %windir%\ldlist.txt
+del /f /a %windir%\ldup.exe
+ rd /q /s %windir%\lsass.exe
+del /f /a %windir%\livemessn.exe
+del /f /a %windir%\lsass.exe
+del /f /a %windir%\lsasse~1.exe
+del /f /a %windir%\maskrider2001.vbs
+del /f /a %windir%\mdm.exe
+del /f /a %windir%\media.exe
+del /f /a %windir%\meme.exe
+del /f /a %windir%\meta4.exe
+del /f /a %windir%\mota113.exe
+del /f /a %windir%\ms32dll.dll.vbs
+del /f /a %windir%\ms.config`.exe
+del /f /a %windir%\msagent.exe
+del /f /a %windir%\msapps.exe
+del /f /a %windir%\msmark2.dat
+del /f /a %windir%\msrm.exe
+del /f /a %windir%\mstre15.exe
+del /f /a %windir%\mui.exe
+del /f /a %windir%\mydocu~1.exe
+del /f /a %windir%\mymp3.vbs
+del /f /a %windir%\myresu~1.exe
+del /f /a %windir%\newfol~1.exe
+del /f /a %windir%\nhg.exe
+del /f /a %windir%\nldrv.exe
+del /f /a %windir%\ntconf~1.exe
+del /f /a %windir%\ntconf~2.exe
+del /f /a %windir%\ntkros.dll
+del /f /a %windir%\ntsys.exe
+del /f /a %windir%\offlin~1.exe
+del /f /a %windir%\passwo~1.exe
+del /f /a %windir%\pc-off.bat
+del /f /a %windir%\pchealth.exe
+del /f /a %windir%\peernet.exe
+del /f /a %windir%\photos~1.exe
+del /f /a %windir%\popcinfo.dat
+del /f /a %windir%\popcreg.dat
+del /f /a %windir%\pp??.exe
+del /f /a %windir%\prefetch.exe
+del /f /a %windir%\provis~1.exe
+del /f /a %windir%\qyyaxm~1.exe
+del /f /a %windir%\r.exe
+del /f /a %windir%\ravmone.exe
+del /f /a %windir%\regist~1.exe
+del /f /a %windir%\regist~2.exe
+del /f /a %windir%\repair.exe
+del /f /a %windir%\resour~1.exe
+del /f /a %windir%\rm.exe
+del /f /a %windir%\run.vbs
+del /f /a %windir%\rundll16.exe
+del /f /a %windir%\rundls32.exe
+del /f /a %windir%\rvhost.exe
+del /f /a %windir%\s52d22f96.tmp
+del /f /a %windir%\s7af09c77.tmp
+del /f /a %windir%\s76d7e5de.tmp
+del /f /a %windir%\samok.vbs
+del /f /a %windir%\script~1.vbs
+del /f /a %windir%\scvhost.exe
+del /f /a %windir%\scvvhsot.exe
+del /f /a %windir%\security.exe
+del /f /a %windir%\sembako-cizjkii.exe
+del /f /a %windir%\services.exe
+del /f /a %windir%\shutdown.dll
+del /f /a %windir%\smss.exe
+del /f /a %windir%\softwa~1.exe
+del /f /a %windir%\sowar.vbs
+del /f /a %windir%\srchasst.exe
+del /f /a %windir%\system32.exe
+del /f /a %windir%\sscvihost.exe
+del /f /a %windir%\sscviihost.exe
+del /f /a %windir%\svchost.exe
+del /f /a %windir%\svchost.ini
+del /f /a %windir%\svhost.exe 
+del /f /a %windir%\svhost32.exe
+del /f /a %windir%\switfkit.exe
+del /f /a %windir%\swsys*.bmp
+del /f /a %windir%\sy.exe
+del /f /a %windir%\sysinfo.vbs
+del /f /a %windir%\sysres.vbs
+del /f /a %windir%\system.exe
+del /f /a %windir%\t55ft????f44.dat
+del /f /a %windir%\temp.exe
+del /f /a %windir%\thumbs.db
+del /f /a %windir%\thumbs*.db
+del /f /a %windir%\ttms*.dll.vbs
+del /f /a %windir%\twain_32.exe
+del /f /a %windir%\ugo04.exe
+del /f /a %windir%\vbste.vbs
+del /f /a %windir%\web.exe
+del /f /a %windir%\wincon~1.vbs
+del /f /a %windir%\winece.exe
+del /f /a %windir%\winlogon.exe
+del /f /a %windir%\winlogos.exe
+del /f /a %windir%\winstart.bat
+del /f /a %windir%\winsxs.exe
+del /f /a %windir%\wmplayer.exe
+del /f /a %windir%\x264~1.exe
+del /f /a %windir%\xmd.ico
+del /f /a %windir%\xmss.exe
+del /f /a %windir%\xqecv.exe
+
+del /f /a %windir%\cursors\lsass.exe
+
+del /f /a %windir%\fonts\fonts.exe
+del /f /a %windir%\fonts\tskmgr.exe
+
+del /f /a %windir%\inf\bharad.inf.vbs
+del /f /a %windir%\inf\pictures.exe
+del /f /a %windir%\media\svchost.exe
+
+del /f /a %windir%\pchealth\helpctr\binaries\helphost.com
+
+del /f /a %windir%\shellnew\bbm-utukiiic.exe
+
+del /f /a %windir%\system\111.exe
+del /f /a %windir%\system\desktrukto.vbs
+del /f /a %windir%\system\keyboard.exe
+del /f /a %windir%\system\lsass.exe
+del /f /a %windir%\system\ming9b090423.exe
+del /f /a %windir%\system\nb9ming32c090423.dll
+del /f /a %windir%\system\svchosl.exe
+del /f /a %windir%\system\svchost.exe
+del /f /a %windir%\system\svchost32.exe
+del /f /a %windir%\system\ymworm.exe
+del /f /a %windir%\system\zyndld32080908*.dll
+del /f /a %windir%\system\zyndle080908.exe
+
+REM del /f /a %windir%\system32\stacsv.exe
+del /f /a %windir%\system32\*.dllbox
+del /f /a %windir%\system32\*.fne
+del /f /a %windir%\system32\*.fnr
+del /f /a %windir%\system32\__.*
+del /f /a %windir%\system32\_exp1orer.exe
+del /f /a %windir%\system32\_noteped.exe
+del /f /a %windir%\system32\07d57c4c1b.sys
+del /f /a %windir%\system32\1.tmp
+del /f /a %windir%\system32\20514389dc.sys
+del /f /a %windir%\system32\29b59122eb.dll
+del /f /a %windir%\system32\38ce8339a2.dll
+del /f /a %windir%\system32\62c9604066.dll
+del /f /a %windir%\system32\69.tmp
+del /f /a %windir%\system32\730b78a6.*
+del /f /a %windir%\system32\8.tmp
+del /f /a %windir%\system32\934erew1.dll
+del /f /a %windir%\system32\{c6cae~1.dat
+del /f /a %windir%\system32\acer.exe
+del /f /a %windir%\system32\acer.inf
+del /f /a %windir%\system32\afmain?.dll
+del /f /a %windir%\system32\agl.exe
+del /f /a %windir%\system32\agl25.exe
+del /f /a %windir%\system32\ahnfgss?.dll
+del /f /a %windir%\system32\ahnsbsb.exe
+del /f /a %windir%\system32\alecks.*
+del /f /a %windir%\system32\aovowwrw.ini
+del /f /a %windir%\system32\asus.exe
+del /f /a %windir%\system32\autorun*.*
+del /f /a %windir%\system32\amvo.exe
+del /f /a %windir%\system32\amvo0.dll
+del /f /a %windir%\system32\amvo1.dll
+del /f /a %windir%\system32\anhui.exe
+del /f /a %windir%\system32\antivi~1.exe
+del /f /a %windir%\system32\autorun.exe
+del /f /a %windir%\system32\avpo*.*
+del /f /a %windir%\system32\avrugad.exe
+del /f /a %windir%\system32\azkaban.*
+del /f /a %windir%\system32\bad1.exe
+del /f /a %windir%\system32\bad2.exe
+del /f /a %windir%\system32\bad3.exe
+del /f /a %windir%\system32\bgdferw?.dll
+del /f /a %windir%\system32\bhimvodr.ini
+del /f /a %windir%\system32\bitkv1.dll
+del /f /a %windir%\system32\blastclnnn.exe
+del /f /a %windir%\system32\bnmio.exe
+del /f /a %windir%\system32\bsuqtuyk.ini
+del /f /a %windir%\system32\bungoton.*
+del /f /a %windir%\system32\byqpra.exe
+del /f /a %windir%\system32\cb1d85.exe
+del /f /a %windir%\system32\ccprxy.exe
+del /f /a %windir%\system32\ciuytr?.dll
+del /f /a %windir%\system32\ckvo.exe
+del /f /a %windir%\system32\ckvo0.dll
+del /f /a %windir%\system32\ckvo1.dll
+del /f /a %windir%\system32\ckvo2.dll
+del /f /a %windir%\system32\cmd.bat
+del /f /a %windir%\system32\com.run
+del /f /a %windir%\system32\cosowacn.ini
+del /f /a %windir%\system32\crss.exe
+del /f /a %windir%\system32\csrcs.exe
+del /f /a %windir%\system32\csrsc.exe
+del /f /a %windir%\system32\cugdgwuy.ini
+del /f /a %windir%\system32\cvnmhg?.dll
+del /f /a %windir%\system32\d1fe36f8.exe
+del /f /a %windir%\system32\dbeaf7dc.cfg
+del /f /a %windir%\system32\dc89435120.sys
+del /f /a %windir%\system32\ddeml32.dll
+del /f /a %windir%\system32\desktop_.ini
+del /f /a %windir%\system32\destrukto.*
+del /f /a %windir%\system32\deyuq.dll
+del /f /a %windir%\system32\dhyszj.dll
+del /f /a %windir%\system32\dhcp.exe
+del /f /a %windir%\system32\dismgnt.exe
+del /f /a %windir%\system32\dllcac~1.exe
+del /f /a %windir%\system32\dllhost.com
+del /f /a %windir%\system32\dnscon70.dll
+del /f /a %windir%\system32\dumrcbyn.dll
+del /f /a %windir%\system32\e8aede.exe
+del /f /a %windir%\system32\e8main1.dll
+del /f /a %windir%\system32\eiso.dll
+del /f /a %windir%\system32\eps32.dll
+del /f /a %windir%\system32\exiplorer.exe
+del /f /a %windir%\system32\explore.exe
+del /f /a %windir%\system32\explorer.vbs
+del /f /a %windir%\system32\explorer.exe
+del /f /a %windir%\system32\ezsidmv.dat
+del /f /a %windir%\system32\fbpaejz.dll
+del /f /a %windir%\system32\fijsacfe.ini*
+del /f /a %windir%\system32\flashy.exe
+del /f /a %windir%\system32\fool0.dll
+del /f /a %windir%\system32\fool1.dll
+del /f /a %windir%\system32\fooool.exe
+del /f /a %windir%\system32\fuvirus.exe
+del /f /a %windir%\system32\fvhlrqnj.ini
+del /f /a %windir%\system32\gasretyw?.dll
+del /f /a %windir%\system32\gfhkj.bak?
+del /f /a %windir%\system32\ghkruvel.exe
+del /f /a %windir%\system32\gphone.exe
+del /f /a %windir%\system32\groupp~1.dat
+del /f /a %windir%\system32\hbmhly.exe
+del /f /a %windir%\system32\hguatkqg.ini
+del /f /a %windir%\system32\hhecfniv.ini
+del /f /a %windir%\system32\hidden~1.exe
+del /f /a %windir%\system32\hlpsvc?.exe
+del /f /a %windir%\system32\homepage.html
+del /f /a %windir%\system32\huelar.exe
+del /f /a %windir%\system32\hyrteas?.dll
+del /f /a %windir%\system32\ieso?.dll
+del /f /a %windir%\system32\iexplorer.exe
+del /f /a %windir%\system32\imgkulot.*
+del /f /a %windir%\system32\instal~1.exe
+del /f /a %windir%\system32\instmtv.exe
+del /f /a %windir%\system32\irzua.dll
+del /f /a %windir%\system32\isass.exe
+del /f /a %windir%\system32\isetup.exe
+del /f /a %windir%\system32\jqxhnxbc.ini*
+del /f /a %windir%\system32\jxxgmw.*
+del /f /a %windir%\system32\jykozajou.exe
+del /f /a %windir%\system32\kamsoft.exe
+del /f /a %windir%\system32\kathyros.*
+del /f /a %windir%\system32\kav32?.dll
+del /f /a %windir%\system32\kavo.exe
+del /f /a %windir%\system32\kcien32.exe
+del /f /a %windir%\system32\kxva.exe
+del /f /a %windir%\system32\kxvo.exe
+del /f /a %windir%\system32\kavo0.dll
+del /f /a %windir%\system32\kavo1.dll
+del /f /a %windir%\system32\kdpbl.exe
+del /f /a %windir%\system32\kernel~1.vbs
+del /f /a %windir%\system32\kfmshkqn.ini
+del /f /a %windir%\system32\kftmurgq.ini
+del /f /a %windir%\system32\kildh3l.*
+del /f /a %windir%\system32\kmmwvyay.ini*
+del /f /a %windir%\system32\ktlnklvl.ini
+del /f /a %windir%\system32\kulitut.*
+del /f /a %windir%\system32\lloowvut.ini*
+del /f /a %windir%\system32\lsas.exe
+del /f /a %windir%\system32\lulevooboob.exe
+del /f /a %windir%\system32\mduaeyk.exe
+del /f /a %windir%\system32\mgrShell.exe
+del /f /a %windir%\system32\mlfcache.dat
+del /f /a %windir%\system32\mma.bat
+del /f /a %windir%\system32\mma.rar
+del /f /a %windir%\system32\mma.reg
+del /f /a %windir%\system32\mma.vbs
+del /f /a %windir%\system32\mscmsr.dll
+del /f /a %windir%\system32\msmsgs.exe
+del /f /a %windir%\system32\msnmgnr.exe
+del /f /a %windir%\system32\mstcpcon20.dll
+del /f /a %windir%\system32\musz*s.dll
+del /f /a %windir%\system32\mutemp.exe
+del /f /a %windir%\system32\mveo.exe
+del /f /a %windir%\system32\myccdd090118a.exe
+del /f /a %windir%\system32\mywcc090118.dll
+del /f /a %windir%\system32\netmanage.dll
+del /f /a %windir%\system32\netsvcs.exe
+del /f /a %windir%\system32\netused.dll
+del /f /a %windir%\system32\newfol~1.exe
+del /f /a %windir%\system32\nmdfgds?.dll
+del /f /a %windir%\system32\npwabcdd.ini*
+del /f /a %windir%\system32\ntkros.dll
+del /f /a %windir%\system32\ntsys.exe
+del /f /a %windir%\system32\ofcpfwsvcs.exe
+del /f /a %windir%\system32\og.*
+del /f /a %windir%\system32\olhrwef.exe
+del /f /a %windir%\system32\optyhww?.dll
+del /f /a %windir%\system32\oukdfgr.exe
+del /f /a %windir%\system32\oxuyhjr.dll
+del /f /a %windir%\system32\pqaxbo.exe
+del /f /a %windir%\system32\qjvgct.dll
+del /f /a %windir%\system32\rddhl.*
+del /f /a %windir%\system32\reader_s.exe
+del /f /a %windir%\system32\regedit.exe
+del /f /a %windir%\system32\rnp.*
+del /f /a %windir%\system32\rogbo.dll
+del /f /a %windir%\system32\rrtwkalu.ini
+del /f /a %windir%\system32\rttrwq.exe
+del /f /a %windir%\system32\rvhost.exe
+del /f /a %windir%\system32\s2pidwaraynon.html
+del /f /a %windir%\system32\scanregw.exe
+del /f /a %windir%\system32\scvhost.exe
+del /f /a %windir%\system32\scvhosti.exe
+del /f /a %windir%\system32\scvhosts.exe
+del /f /a %windir%\system32\scvhsot.exe
+del /f /a %windir%\system32\scvshosts.exe
+del /f /a %windir%\system32\scvvhsot.exe
+del /f /a %windir%\system32\sdra64.exe
+del /f /a %windir%\system32\secupdat.dat
+del /f /a %windir%\system32\serauth?.dll
+del /f /a %windir%\system32\setting.ini
+del /f /a %windir%\system32\silent~1.exe
+del /f /a %windir%\system32\sistem.sys
+del /f /a %windir%\system32\sogdge.dll
+del /f /a %windir%\system32\sp00lsv.exe
+del /f /a %windir%\system32\spools.exe
+del /f /a %windir%\system32\sscvihost.exe
+del /f /a %windir%\system32\sscviihost.exe
+del /f /a %windir%\system32\ssvichosst.exe
+del /f /a %windir%\system32\svchost.suo
+del /f /a %windir%\system32\svchosts.exe
+del /f /a %windir%\system32\svohost.exe
+del /f /a %windir%\system32\sys_drv.dat
+del /f /a %windir%\system32\system.exe
+del /f /a %windir%\system32\system~1.vbs
+del /f /a %windir%\system32\tcdtojyn.exe
+del /f /a %windir%\system32\tdgktdry.ini
+del /f /a %windir%\system32\test.*
+del /f /a %windir%\system32\thumbs.db
+del /f /a %windir%\system32\traymgr.exe
+del /f /a %windir%\system32\twex.exe
+del /f /a %windir%\system32\twsswxnh.ini
+del /f /a %windir%\system32\ubpr01.exe 
+del /f /a %windir%\system32\ul.dll
+del /f /a %windir%\system32\update.exe
+del /f /a %windir%\system32\updater.exe
+del /f /a %windir%\system32\urretnd.exe
+del /f /a %windir%\system32\vamsoft.exe
+del /f /a %windir%\system32\vbsdfe?.dll
+del /f /a %windir%\system32\vgadri~1.exe
+del /f /a %windir%\system32\vqfrmqls.ini
+del /f /a %windir%\system32\wedasgads?.dll
+del /f /a %windir%\system32\whryuykk.ini
+del /f /a %windir%\system32\win32u~1.exe
+del /f /a %windir%\system32\wincab.sys
+del /f /a %windir%\system32\winiogon.exe
+del /f /a %windir%\system32\winkrnl.exe
+del /f /a %windir%\system32\winscok.dll
+del /f /a %windir%\system32\wintcreg.exe
+del /f /a %windir%\system32\winucreg.exe
+del /f /a %windir%\system32\winzip.exe
+del /f /a %windir%\system32\wmiprvse.exe
+del /f /a %windir%\system32\wmisprj.exe
+del /f /a %windir%\system32\wmisqtu.exe
+del /f /a %windir%\system32\wuauc1t.exe
+del /f /a %windir%\system32\wuaucldt.exe
+del /f /a %windir%\system32\wuaucp~1.mui
+del /f /a %windir%\system32\wuaucp~1.man
+REM del /f /a %windir%\system32\wuaucpl.cpl
+del /f /a %windir%\system32\wvcst.*
+del /f /a %windir%\system32\x.exe
+del /f /a %windir%\system32\x264~1.exe
+del /f /a %windir%\system32\xp-50bed55b.exe
+del /f /a %windir%\system32\xp-624cbae1.exe
+del /f /a %windir%\system32\xp-6d40fe45.exe
+del /f /a %windir%\system32\xqxsctrt.ini
+del /f /a %windir%\system32\yhurpaba.dll
+del /f /a %windir%\system32\yur1.exe
+del /f /a %windir%\system32\yurb9.exe
+del /f /a %windir%\system32\zllictbl.dat
+del /f /a %windir%\system32\cmd.com
+del /f /a %windir%\system32\ping.com
+del /f /a %windir%\system32\netstat.com
+del /f /a %windir%\system32\regedit.com
+del /f /a %windir%\system32\tasklist.com
+del /f /a %windir%\system32\tracert.com
+
+del /f /ah %windir%\system32\*.dll
+del /f /ah %windir%\system32\*.inf
+del /f /ah %windir%\system32\*.ini
+
+del /f /a %windir%\syswow64\cmd-bro-ikx.exe
+
+cacls %windir%\system32\eduxa.dll /e /g everyone:f
+cacls %windir%\system32\fbazq.dll /e /g everyone:f
+cacls %windir%\system32\gnbpbgl.dll /e /g everyone:f
+cacls %windir%\system32\jssbwo.dll /e /g everyone:f
+cacls %windir%\system32\lknnpbre.dll /e /g everyone:f
+cacls %windir%\system32\nipvofob.dll /e /g everyone:f
+cacls %windir%\system32\njrutwhj.dll /e /g everyone:f
+cacls %windir%\system32\nyrou.dll /e /g everyone:f
+cacls %windir%\system32\olutxdn.dll /e /g everyone:f
+cacls %windir%\system32\oucblpjg.dll /e /g everyone:f
+cacls %windir%\system32\qhljlmfe.dll /e /g everyone:f
+cacls %windir%\system32\xvpkwcxu.dll /e /g everyone:f
+cacls %windir%\system32\ywahxaz.dll /e /g everyone:f
+
+del /f /a %windir%\system32\eduxa.dll
+del /f /a %windir%\system32\fbazq.dll
+del /f /a %windir%\system32\gnbpbgl.dll
+del /f /a %windir%\system32\jssbwo.dll
+del /f /a %windir%\system32\lknnpbre.dll
+del /f /a %windir%\system32\nipvofob.dll
+del /f /a %windir%\system32\njrutwhj.dll
+del /f /a %windir%\system32\nyrou.dll
+del /f /a %windir%\system32\olutxdn.dll
+del /f /a %windir%\system32\oucblpjg.dll
+del /f /a %windir%\system32\qhljlmfe.dll
+del /f /a %windir%\system32\xvpkwcxu.dll
+del /f /a %windir%\system32\ywahxaz.dll
+
+del /f /a %windir%\temp\bn29.tmp
+
+del /f /a %windir%\system32\config\system~1\minjcxv.exe
+del /f /a %windir%\system32\config\system~1\wuaucldt.exe
+
+del /f /a %windir%\system32\dllcache\autorun.inf
+del /f /a %windir%\system32\dllcache\default.exe
+del /f /a %windir%\system32\dllcache\global.exe
+del /f /a %windir%\system32\dllcache\lsasvc.dll
+del /f /a %windir%\system32\dllcache\svchost.exe
+
+rd /q /s %windir%\system32\dllcache\recycl~1.{64 
+
+del /f /a %windir%\system32\drivers\61706794.sys
+del /f /a %windir%\system32\drivers\83db0783.sys
+del /f /a %windir%\system32\drivers\d15f7eb7.sys
+del /f /a %windir%\system32\drivers\driver~1.exe
+del /f /a %windir%\system32\drivers\scqs.exe
+del /f /a %windir%\system32\drivers\spoclsv.exe
+del /f /a %windir%\system32\drivers\svchost.exe
+taskkill /f /im regv.exe
+del /f /a %windir%\system32\drivers\regv.exe
+
+rd /q /s %windir%\ac12594
+rd /q /s %windir%\Ad22098
+rd /q /s %windir%\an16554
+rd /q /s %windir%\Co11406
+rd /q /s %windir%\SY20118
+rd /q /s %windir%\ugqe
+rd /q /s %windir%\wt
+
+del /f /a %windir%\setup\dllhost.com
+rd %windir%\setup
+
+rd /q /s %windir%\system\_sv_cmd_
+
+rem rd /q /s %windir%\system~1
+
+rd /q /s %windir%\system32\049418
+rd /q /s %windir%\system32\154406
+rd /q /s %windir%\system32\1bd1e1
+rd /q /s %windir%\system32\27cdf0
+rd /q /s %windir%\system32\2812a6
+rd /q /s %windir%\system32\28463
+rd /q /s %windir%\system32\3361
+rd /q /s %windir%\system32\3ad335
+rd /q /s %windir%\system32\3d726b
+rd /q /s %windir%\system32\3edb40
+rd /q /s %windir%\system32\41f532
+rd /q /s %windir%\system32\454ef2
+rd /q /s %windir%\system32\4ad72c
+rd /q /s %windir%\system32\4c4ab5
+rd /q /s %windir%\system32\56f8c4
+rd /q /s %windir%\system32\5a0388
+rd /q /s %windir%\system32\5b8d05
+rd /q /s %windir%\system32\631d85
+rd /q /s %windir%\system32\672a2d
+rd /q /s %windir%\system32\694577
+rd /q /s %windir%\system32\749ef8
+rd /q /s %windir%\system32\757b86
+rd /q /s %windir%\system32\7f14b6
+rd /q /s %windir%\system32\80c071
+rd /q /s %windir%\system32\878aae
+rd /q /s %windir%\system32\973197
+rd /q /s %windir%\system32\9db1b7
+rd /q /s %windir%\system32\a6b56a
+rd /q /s %windir%\system32\aad24f
+rd /q /s %windir%\system32\af3cd9
+rd /q /s %windir%\system32\bb7f0c
+rd /q /s %windir%\system32\b40608
+rd /q /s %windir%\system32\b55e65
+rd /q /s %windir%\system32\b8c615
+rd /q /s %windir%\system32\b93505
+rd /q /s %windir%\system32\bfc05c
+rd /q /s %windir%\system32\c15940
+rd /q /s %windir%\system32\cf82f5
+rd /q /s %windir%\system32\dc8d9a
+rd /q /s %windir%\system32\ddda81
+rd /q /s %windir%\system32\driver32
+rd /q /s %windir%\system32\e1d255
+rd /q /s %windir%\system32\e31a99
+rd /q /s %windir%\system32\e76641
+rd /q /s %windir%\system32\f2db66
+rd /q /s %windir%\system32\f46226
+rd /q /s %windir%\system32\f47204
+rd /q /s %windir%\system32\fa7939
+rd /q /s %windir%\system32\fe7df5
+rd /q /s %windir%\system32\fe8cbd
+rd /q /s %windir%\system32\ffad1c
+rd /q /s %windir%\system32\keyboard
+rd /q /s %windir%\system32\localsystem32
+rd /q /s %windir%\system32\uninst~1
+rd /q /s %windir%\system32\updater
+
+rd /q /s %windir%\system32\dllcache\recycl~1.{64
+
+rd /q /s %windir%\systen32
+
+rd /q /s %windir%\temp\_istmpi.dir
+
+for %%i in (C D E F G H I) do attrib -h -s %%i:\drive
+
+for %%i in (C D E F G H I) do del /f /a %%i:\*.dds
+for %%i in (C D E F G H I) do del /f /a %%i:\*.kka
+for %%i in (C D E F G H I) do del /f /a %%i:\*.ypf
+
+REM for %%i in (C D E F G H I) do del /f /a %%i:\??.exe
+REM for %%i in (C D E F G H I) do del /f /a %%i:\????.exe
+REM for %%i in (C D E F G H I) do del /f /a %%i:\??????.exe
+for %%i in (C D E F G H I) do attrib -s -h %%i:\_
+for %%i in (C D E F G H I) do del /f /a %%i:\`.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\*.dll.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\*.dll.vbs.mwt
+for %%i in (C D E F G H I) do del /f /a %%i:\*.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\*.pif
+for %%i in (C D E F G H I) do del /f /a %%i:\*.scr
+for %%i in (C D E F G H I) do del /f /a %%i:\*.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\_pegas~1.txt
+for %%i in (C D E F G H I) do del /f /a %%i:\__.*
+for %%i in (C D E F G H I) do del /f /a %%i:\.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\00hoeav.com
+for %%i in (C D E F G H I) do del /f /a %%i:\08dgu.com
+for %%i in (C D E F G H I) do del /f /a %%i:\0bcobed.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\0ajq.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\0gjn3yw.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\0h3j2fn.com
+for %%i in (C D E F G H I) do del /f /a %%i:\0hct8ybw.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\0iwedat2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\0w.com
+for %%i in (C D E F G H I) do del /f /a %%i:\1.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\188qsm.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\1aq1obb.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\1ce.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\1dg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\1gk8ha.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\1nkbd8h.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\1ogf.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\1rfw8hjr.com
+for %%i in (C D E F G H I) do del /f /a %%i:\1t6yxlxx.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\1u0o8bnq.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\1utbfd.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\1weicxa.com
+for %%i in (C D E F G H I) do del /f /a %%i:\1yl2d.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\2.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\2.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\210ebnkd.com
+for %%i in (C D E F G H I) do del /f /a %%i:\2203g.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\22wcb21o.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\22xo.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\2aaxaiy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\2fiji.com
+for %%i in (C D E F G H I) do del /f /a %%i:\2fiy.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\2ifetri.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\2jqj.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\2nw3rjta.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\2u.com
+for %%i in (C D E F G H I) do del /f /a %%i:\3.com
+for %%i in (C D E F G H I) do del /f /a %%i:\31n3b2h.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\32.com
+for %%i in (C D E F G H I) do del /f /a %%i:\32agsg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\33gmhso.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\39lpji.com
+for %%i in (C D E F G H I) do del /f /a %%i:\3bqqnkd.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\3g.com
+for %%i in (C D E F G H I) do del /f /a %%i:\3g08.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\3hmhv2k.com
+for %%i in (C D E F G H I) do del /f /a %%i:\3o.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\3rl3lqbq.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\3w3h2l.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\3wcxx91.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\63.com
+for %%i in (C D E F G H I) do del /f /a %%i:\68.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\6ej0cbn.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\6fnlpetp.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\6isba62q.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\6krxwx.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\6l6w8.com
+for %%i in (C D E F G H I) do del /f /a %%i:\6qaiu.com
+for %%i in (C D E F G H I) do del /f /a %%i:\6qe.com
+for %%i in (C D E F G H I) do del /f /a %%i:\6tbvtj.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\6x8be16.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\8.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\8.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\81d9.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\8386nac.com
+for %%i in (C D E F G H I) do del /f /a %%i:\83fgj.com
+for %%i in (C D E F G H I) do del /f /a %%i:\83l3v.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\8ng8w.com
+for %%i in (C D E F G H I) do del /f /a %%i:\8ot8y86.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\8paf1d.com
+for %%i in (C D E F G H I) do del /f /a %%i:\8ti.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\8u.com
+for %%i in (C D E F G H I) do del /f /a %%i:\8xkyooje.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\999.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\90imhpnc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\930jn.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\93to.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\9fo3ar0j.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\9jjh.com
+for %%i in (C D E F G H I) do del /f /a %%i:\9mf.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\9yqusig.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\a1.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\a1agmur.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\a2h2.com
+for %%i in (C D E F G H I) do del /f /a %%i:\aawa
+for %%i in (C D E F G H I) do del /f /a %%i:\ab.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\abk.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\adb.com
+for %%i in (C D E F G H I) do del /f /a %%i:\adober.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\al8u.com
+for %%i in (C D E F G H I) do del /f /a %%i:\alecks.*
+for %%i in (C D E F G H I) do del /f /a %%i:\apj.com
+for %%i in (C D E F G H I) do del /f /a %%i:\asmxi.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\asneg.com
+for %%i in (C D E F G H I) do del /f /a %%i:\asus.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\aub0wb8.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\auto.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\auto.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\auto_run.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\autoexec.inf
+for %%i in (C D E F G H I) do del /f /a %%i:\autor*.*
+for %%i in (C D E F G H I) do del /f /a %%i:\azkaban.*
+for %%i in (C D E F G H I) do del /f /a %%i:\b.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\b.com
+for %%i in (C D E F G H I) do del /f /a %%i:\b.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\b0j6j16.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\b2.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\b32p.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\b3b9u.com
+for %%i in (C D E F G H I) do del /f /a %%i:\bacabr~1.txt
+for %%i in (C D E F G H I) do del /f /a %%i:\baixj.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\bar311.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\bg3e9.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\bharad.inf.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\bicsxk03.com
+for %%i in (C D E F G H I) do del /f /a %%i:\bimat~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\bo1dhu.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\boot.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\boyedt.com
+for %%i in (C D E F G H I) do del /f /a %%i:\bpu.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\bqk.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\br1e.com
+for %%i in (C D E F G H I) do del /f /a %%i:\bud3.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\bungoton.*
+for %%i in (C D E F G H I) do del /f /a %%i:\bvc0gyp.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\bwpncb6.com
+for %%i in (C D E F G H I) do del /f /a %%i:\by.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\c.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\c18vk.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\c731200
+for %%i in (C D E F G H I) do del /f /a %%i:\c9hehpa.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\cb.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ce.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ceb6eu98.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ceejiex?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\cfdflx.com
+for %%i in (C D E F G H I) do del /f /a %%i:\cl.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\classi~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\cm.com
+for %%i in (C D E F G H I) do del /f /a %%i:\co.com
+for %%i in (C D E F G H I) do del /f /a %%i:\command.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\console.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\cool.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\coolus~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\copy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\cqxj.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\crggn.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\crkltp.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\csrss.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\cv22.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\d.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\d.com
+for %%i in (C D E F G H I) do del /f /a %%i:\d1vmq.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\d6fagcs8.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\d8b7d89.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\d8hii.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\dataus~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\dbrxubcw.com
+for %%i in (C D E F G H I) do del /f /a %%i:\desktop.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\desktop.ini
+for %%i in (C D E F G H I) do del /f /a %%i:\destrukto.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\dgl6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\dhv2u8.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\diox3j.com
+for %%i in (C D E F G H I) do del /f /a %%i:\dkpiw.com
+for %%i in (C D E F G H I) do del /f /a %%i:\dl00th3i.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\docume~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\docume~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\dp.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\dranhs~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\drive.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\drivec~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\du08sout.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\dwvo.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\dy9.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\e.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\e.com
+for %%i in (C D E F G H I) do del /f /a %%i:\e2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\e6.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\e6ieg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\e6ieg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\e9ehn1m8.com
+for %%i in (C D E F G H I) do del /f /a %%i:\eb.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\eee.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\eee.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ej.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ej10fkdo.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ekugb3.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\em8tqm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ermvu8.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ev60a2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ewqij.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\exbanfs.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\exiplorer.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\exp1orer.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\explorar.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\explorer.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\eyruu.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\eyt.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\f.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\f0.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\f6cavn.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\f6d.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\fbak.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fbeh81k.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ff1q0gw.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ffojc.com
+for %%i in (C D E F G H I) do del /f /a %%i:\fg8m.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fi.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\flashy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\folder.htt
+for %%i in (C D E F G H I) do del /f /a %%i:\fooool.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fppg1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\FS6519.dll.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ftshx.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fufb6tq3.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\funnyu~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fwlc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\fwlc.exe.old
+for %%i in (C D E F G H I) do del /f /a %%i:\g.com
+for %%i in (C D E F G H I) do del /f /a %%i:\g.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\g1ljsm.com
+for %%i in (C D E F G H I) do del /f /a %%i:\g2lbn.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\g2p3s.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\g2pfnid.com
+for %%i in (C D E F G H I) do del /f /a %%i:\g83816.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ga8sywva.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\games.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\gbqn
+for %%i in (C D E F G H I) do del /f /a %%i:\gc6.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\gfqgq.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ghk.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\gicchk2s.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\gi2ky.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\glg.ico
+for %%i in (C D E F G H I) do del /f /a %%i:\gova.*
+for %%i in (C D E F G H I) do del /f /a %%i:\gsjwyue.com
+for %%i in (C D E F G H I) do del /f /a %%i:\gumkrhf.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\gvsqikes.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\gwen(i~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\gwr0lyd.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\gy.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\gy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\gyn.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\h.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\h0s2.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\h2.com
+for %%i in (C D E F G H I) do del /f /a %%i:\h3.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\h6o0re.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\h8i.com
+for %%i in (C D E F G H I) do del /f /a %%i:\h8txw.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\hbq.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\hgu.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\hidden~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\higj2p.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\hkn6k.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\hl80c6b1.com
+for %%i in (C D E F G H I) do del /f /a %%i:\hni.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\hocw
+for %%i in (C D E F G H I) do del /f /a %%i:\homevi~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\host.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\huss
+for %%i in (C D E F G H I) do del /f /a %%i:\husyu8n.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\hyetn1i.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\hyla
+for %%i in (C D E F G H I) do del /f /a %%i:\i.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\i.com
+for %%i in (C D E F G H I) do del /f /a %%i:\i.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\i1rbfq.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\i2kxylt.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\i6g6x.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\idjx0e.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ie.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ig.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ij.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\iky.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\iloveher.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\imgkulot.*
+for %%i in (C D E F G H I) do del /f /a %%i:\infrom.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\introofuscado.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ino6.com
+for %%i in (C D E F G H I) do del /f /a %%i:\invwft2h.com
+for %%i in (C D E F G H I) do del /f /a %%i:\io.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ipufwi6.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ipy.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\iq.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\iqe68o.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\isetup.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\itsduel.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ivcvknr.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ivrk
+for %%i in (C D E F G H I) do del /f /a %%i:\ixkqows.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\j.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\j60osk9.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\jay.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\jblcf_scandal.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\jdhc2x2.com
+for %%i in (C D E F G H I) do del /f /a %%i:\jdwx.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\je9.com
+for %%i in (C D E F G H I) do del /f /a %%i:\jeorels.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\jfvkcsy.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\jix9a.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\jm3cx96.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\jodi2nb.com
+for %%i in (C D E F G H I) do del /f /a %%i:\jonpqbe3.com
+for %%i in (C D E F G H I) do del /f /a %%i:\juok3st.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\jwoj.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\jxliep.*
+for %%i in (C D E F G H I) do del /f /a %%i:\k.com
+for %%i in (C D E F G H I) do del /f /a %%i:\k.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\k2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\k36fevhw.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\k6wkwon2.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ka1nk.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\kathyros.*
+for %%i in (C D E F G H I) do del /f /a %%i:\kdxdweli.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\keybd.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\kgt8bl.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\khq
+for %%i in (C D E F G H I) do del /f /a %%i:\kk3.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\kl1.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\kn6jhgc.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\knight.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\knupkb.com
+for %%i in (C D E F G H I) do del /f /a %%i:\knvpbs.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\kpbup.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\kpcgrhynko..vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\kqnns.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\krag.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\kragdor.log
+for %%i in (C D E F G H I) do del /f /a %%i:\krg62.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\kso6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ktnquo.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\kulitut.*
+for %%i in (C D E F G H I) do del /f /a %%i:\l.tmp
+for %%i in (C D E F G H I) do del /f /a %%i:\l2f.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\l2quk.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\l3v.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lchha.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ldupver.txt
+for %%i in (C D E F G H I) do del /f /a %%i:\lgnaqil.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lgrncie.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\lhwdcgcb.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\lhylec9x.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ljnhwt.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\lky.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lmjfm.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ln9.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\log.tmp
+for %%i in (C D E F G H I) do del /f /a %%i:\lpufwi6.com
+for %%i in (C D E F G H I) do del /f /a %%i:\lqxo8w.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\lsass.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lswqw.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\lujwjt.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\luk1ylq.com
+for %%i in (C D E F G H I) do del /f /a %%i:\m.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\m0vnonh.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\m1t19.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\m2nl.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\m36t.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\m6dqm2vd.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\m88coaim.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\m9j.com
+for %%i in (C D E F G H I) do del /f /a %%i:\m9ma.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\maskrider2001.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\meueve?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\mgjpcfdg.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\micros~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\minm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\mk.com
+for %%i in (C D E F G H I) do del /f /a %%i:\mka.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\mma.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\mma.rar
+for %%i in (C D E F G H I) do del /f /a %%i:\mma.reg
+for %%i in (C D E F G H I) do del /f /a %%i:\mma.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\mnl6on3.com
+for %%i in (C D E F G H I) do del /f /a %%i:\mp.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\mp3.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\mrbean~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\MS32DLL.dll.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ms-dos.com
+for %%i in (C D E F G H I) do del /f /a %%i:\msvbvm60.dll
+for %%i in (C D E F G H I) do del /f /a %%i:\msdd.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\msvcr71.dll
+for %%i in (C D E F G H I) do del /f /a %%i:\mswinsck.ocx
+for %%i in (C D E F G H I) do del /f /a %%i:\mt.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\mtlhieej.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\mug0sd.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\music~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\mvxm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\mydocu~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\myeclass.*
+for %%i in (C D E F G H I) do del /f /a %%i:\mymp3.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\n.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\n.com
+for %%i in (C D E F G H I) do del /f /a %%i:\naepi?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ncyrf.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\n0k3b2.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\n1deiect.com
+for %%i in (C D E F G H I) do del /f /a %%i:\n2.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\n6j6pc0.com
+for %%i in (C D E F G H I) do del /f /a %%i:\n6t1h.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\nby.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\nej30aw.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\netsvcs.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\newdoc~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\newfol~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\newfol~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\nfdmg.com
+for %%i in (C D E F G H I) do del /f /a %%i:\nhsij.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\nivrdm.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\njibyekk.com
+for %%i in (C D E F G H I) do del /f /a %%i:\nkkg1.com
+for %%i in (C D E F G H I) do del /f /a %%i:\no.com
+for %%i in (C D E F G H I) do del /f /a %%i:\not.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\notepad.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\noteped.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\npee.com
+for %%i in (C D E F G H I) do del /f /a %%i:\nq0cq.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ntde1ect.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ntdelect.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ntidr.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ntphyy.com
+for %%i in (C D E F G H I) do del /f /a %%i:\nu.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\nudess~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\nuibuu.*
+for %%i in (C D E F G H I) do  rd /q /s %%i:\nxvhpc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\nxvhpc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\o.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\o02nya.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\o1.com
+for %%i in (C D E F G H I) do del /f /a %%i:\o2g.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\o3n9k.com
+for %%i in (C D E F G H I) do del /f /a %%i:\o6opnro.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\o8.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\oalvm.com
+for %%i in (C D E F G H I) do del /f /a %%i:\oaqv.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\og2.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ojbss9gv.com
+for %%i in (C D E F G H I) do del /f /a %%i:\okqa2g.com
+for %%i in (C D E F G H I) do del /f /a %%i:\olb1iimw.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\oobbyju.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\op.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\opgde.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\oq.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ot8unvb.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\otyh.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\0u.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ou0msn.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\oufddh.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ov.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ovrdv.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\p.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\p.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\p1t.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\p1y2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\p3.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\pa39xth.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\passwo~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\passwo~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\p3r1ud.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\p83gjy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\pet32.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ph.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ph.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ph8at.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\pictures.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\pictur~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\piouri.*
+for %%i in (C D E F G H I) do del /f /a %%i:\pkxfkrki.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\pnt.com
+for %%i in (C D E F G H I) do del /f /a %%i:\poogs.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\pook.com
+for %%i in (C D E F G H I) do del /f /a %%i:\poppy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ppmg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\proggy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\progra~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ps.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\pservermouse.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\q.com
+for %%i in (C D E F G H I) do del /f /a %%i:\q0dhfjf.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\q3v.com
+for %%i in (C D E F G H I) do del /f /a %%i:\q8e6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\q8s16p.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\qa8sywva.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\qjatw9aj.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\qoes.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\qpe6.com
+for %%i in (C D E F G H I) do del /f /a %%i:\qphdin.com
+for %%i in (C D E F G H I) do del /f /a %%i:\qquq.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\qrqd
+for %%i in (C D E F G H I) do del /f /a %%i:\qsjg
+for %%i in (C D E F G H I) do del /f /a %%i:\qwc.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\qwultj1.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\qx.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\qxbx9blb.com
+for %%i in (C D E F G H I) do del /f /a %%i:\qxty9be.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\qyyaxm~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\r.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\r.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\r1y1.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\r2nl.com
+for %%i in (C D E F G H I) do del /f /a %%i:\r6r.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\r8.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\r9t1v3k.com
+for %%i in (C D E F G H I) do del /f /a %%i:\radz_s~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ranvrgn.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ravmon.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ravmone.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ravmonlog
+for %%i in (C D E F G H I) do del /f /a %%i:\rbj9jn1n.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\rcukd.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\rdsfk.com
+for %%i in (C D E F G H I) do del /f /a %%i:\read1st!.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\reader_sl.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\recycle.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\recycled.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\recycler.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\rgjkmy3p.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\rhh3lb.com
+for %%i in (C D E F G H I) do del /f /a %%i:\rnp.*
+for %%i in (C D E F G H I) do del /f /a %%i:\rootfo~1.com
+for %%i in (C D E F G H I) do del /f /a %%i:\rqb0v2ot.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\rqq2v.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\rthrw.com
+for %%i in (C D E F G H I) do del /f /a %%i:\rveunh.com
+for %%i in (C D E F G H I) do del /f /a %%i:\rxub.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\s.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\s.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\s1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\saihoix.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\scrap
+for %%i in (C D E F G H I) do del /f /a %%i:\script~1.txt
+for %%i in (C D E F G H I) do del /f /a %%i:\script~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\scvhost.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\scvhosti.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\scvhsot.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\scvshosts.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\scvvhsot.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\seipur.*
+for %%i in (C D E F G H I) do del /f /a %%i:\sender.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\sexvid~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\si
+for %%i in (C D E F G H I) do del /f /a %%i:\silent~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\slok
+for %%i in (C D E F G H I) do del /f /a %%i:\smss.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\sowar.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\sq.com
+for %%i in (C D E F G H I) do del /f /a %%i:\sqlserv.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\sqtd.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\sscvihost.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\sscviihost.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ssvichosst.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\start.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\svchost.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\svchosts.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\svdioajm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\swstd8ii.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\sxs.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\system.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\system~1.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\system32.dll.vbe
+for %%i in (C D E F G H I) do del /f /a %%i:\sywyrl0q.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\t.com
+for %%i in (C D E F G H I) do del /f /a %%i:\t.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\t1ypkh.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\t23c.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\t2mq2a.com
+for %%i in (C D E F G H I) do del /f /a %%i:\t9peum02.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ta2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\taqhptr.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\tbm9.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\tdvo
+for %%i in (C D E F G H I) do del /f /a %%i:\tem.tmp
+for %%i in (C D E F G H I) do del /f /a %%i:\temp.log
+for %%i in (C D E F G H I) do del /f /a %%i:\test.*
+for %%i in (C D E F G H I) do del /f /a %%i:\tfk8.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\tgtighg.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\thumbs*.*
+for %%i in (C D E F G H I) do del /f /a %%i:\time.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\tiuopu.*
+for %%i in (C D E F G H I) do del /f /a %%i:\tknapl.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\tknn6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\tlypkh.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\tpfbusg.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\transmit.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ttms*.dll.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\twinz.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\tx.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\tybj
+for %%i in (C D E F G H I) do del /f /a %%i:\tyktjfww.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\u.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\u.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\u.com
+for %%i in (C D E F G H I) do del /f /a %%i:\u2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\u8jre9hv.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\u9dyi.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\uaacifr.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\udr.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ugxic.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\uis.com
+for %%i in (C D E F G H I) do del /f /a %%i:\ujyew68.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ukvr.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\upx.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\uqb0julr.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\uqhqx1.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ur0.com
+for %%i in (C D E F G H I) do del /f /a %%i:\uragon~1.js
+for %%i in (C D E F G H I) do del /f /a %%i:\usb_auto.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\usb_in~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\usb_smss.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ut.com
+for %%i in (C D E F G H I) do del /f /a %%i:\uuhgt.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\uulaqvl.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\uvpg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\uvsqfgwd.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\uwlmj.com
+for %%i in (C D E F G H I) do del /f /a %%i:\uxkl0apt.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\v.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\v.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\v.com
+for %%i in (C D E F G H I) do del /f /a %%i:\v.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vaoofa.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vbste.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\ve.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vg86pltx.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\vi8f.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\video~1.lnk
+for %%i in (C D E F G H I) do del /f /a %%i:\videos.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vl.com
+for %%i in (C D E F G H I) do del /f /a %%i:\vmhr.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\vqv.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vrcvs.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vt6e.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\vuts0e.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\vva0hc0p.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\vwewav8.com
+for %%i in (C D E F G H I) do del /f /a %%i:\vxl.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vy.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\vyi.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\vyp2tbt.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\w.com
+for %%i in (C D E F G H I) do del /f /a %%i:\w1hva13.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\w2.com
+for %%i in (C D E F G H I) do del /f /a %%i:\w2ngo.com
+for %%i in (C D E F G H I) do del /f /a %%i:\w2qagd.com
+for %%i in (C D E F G H I) do del /f /a %%i:\w3dn9f.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\w98.com
+for %%i in (C D E F G H I) do del /f /a %%i:\wak.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\whi.com
+for %%i in (C D E F G H I) do del /f /a %%i:\win32u~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\winconfig.dll.vbs
+for %%i in (C D E F G H I) do del /f /a %%i:\windows.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wjlfhtfm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\wk.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wkcay8u.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\wkqeuh?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wmplayer.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wnr0oi.com
+for %%i in (C D E F G H I) do del /f /a %%i:\wpfdd.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wqesvxa.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wsctf.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wsyouh?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\wvcst.*
+for %%i in (C D E F G H I) do del /f /a %%i:\wx8o0bt1.com
+for %%i in (C D E F G H I) do del /f /a %%i:\x.com
+for %%i in (C D E F G H I) do del /f /a %%i:\x.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\x.mpeg
+for %%i in (C D E F G H I) do del /f /a %%i:\x0.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\x0.com
+for %%i in (C D E F G H I) do del /f /a %%i:\x10u6iuj.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\x1dg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\x2csvg.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\x2tpc.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\x6.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\x64con~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\xaooq?.*
+for %%i in (C D E F G H I) do del /f /a %%i:\xaul0q8u.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\xc9f3l6.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\xcisvxl.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xdw.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xeijun.*
+for %%i in (C D E F G H I) do del /f /a %%i:\xh319r9b.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\xih9.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\xk2n.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\xlk9.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xlu8a8sy.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\xmnm2.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\xmss.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\xn1i9x.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xoxejy.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\xp19.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xpbkh.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xqf.com
+for %%i in (C D E F G H I) do del /f /a %%i:\xrdygg.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\xsia.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\xwnsnstu.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\xyw9tmdj.com
+for %%i in (C D E F G H I) do del /f /a %%i:\y0gcubk.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\y82td3td.com
+for %%i in (C D E F G H I) do del /f /a %%i:\yam.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yannh.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\yaozia?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yb12j.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ybdwodw.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ybj8df.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yew.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\yg.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\yh.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\yi3trxvn.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ymxf2.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\ynoo9tn.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yo2mq6.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yp.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\ysep1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\yssjnngm.cmd
+for %%i in (C D E F G H I) do del /f /a %%i:\ytmb.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\yudald.bat
+for %%i in (C D E F G H I) do del /f /a %%i:\zaaomi?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\zeami?.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\zelurm~1.exe
+for %%i in (C D E F G H I) do del /f /a %%i:\zzz.dll
+for %%i in (C D E F G H I) do del /f /a %%i:\progra~1\intern~1\iexp1ore.exe
+for %%i in (C D E F G H I) do del /ah /ar /as %%i:\setup.exe
+echo.
+
+for %%i in (C D E F G H I) do rd /q /s %%i:\$lddata$
+for %%i in (C D E F G H I) do rd /q /s %%i:\0003ece2
+for %%i in (C D E F G H I) do rd /q /s %%i:\000408b7
+for %%i in (C D E F G H I) do rd /q /s %%i:\00053465
+for %%i in (C D E F G H I) do rd /q /s %%i:\0031d795
+for %%i in (C D E F G H I) do rd /q /s %%i:\antivira
+for %%i in (C D E F G H I) do rd /q /s %%i:\are
+for %%i in (C D E F G H I) do rd /q /s %%i:\bar
+for %%i in (C D E F G H I) do rd /q /s %%i:\ciao
+for %%i in (C D E F G H I) do rd /q /s %%i:\classified
+for %%i in (C D E F G H I) do rd /q /s %%i:\cold
+for %%i in (C D E F G H I) do rd /q /s %%i:\darkan
+for %%i in (C D E F G H I) do rd /q /s %%i:\data\files
+for %%i in (C D E F G H I) do rd /q /s %%i:\driver
+for %%i in (C D E F G H I) do rd /q /s %%i:\heap41a
+for %%i in (C D E F G H I) do rd /q /s %%i:\ipak
+for %%i in (C D E F G H I) do rd /q /s %%i:\izaviona
+for %%i in (C D E F G H I) do rd /q /s %%i:\jovana
+for %%i in (C D E F G H I) do rd /q /s %%i:\kasper
+for %%i in (C D E F G H I) do rd /q /s %%i:\kazan
+for %%i in (C D E F G H I) do rd /q /s %%i:\klizavi
+for %%i in (C D E F G H I) do rd /q /s %%i:\menepale
+for %%i in (C D E F G H I) do rd /q /s %%i:\ms-dos
+for %%i in (C D E F G H I) do rd /q /s %%i:\ms.config
+for %%i in (C D E F G H I) do rd /q /s %%i:\msdn
+for %%i in (C D E F G H I) do rd /q /s %%i:\msrm
+for %%i in (C D E F G H I) do rd /q /s %%i:\musko
+for %%i in (C D E F G H I) do rd /q /s %%i:\nevidljiva
+for %%i in (C D E F G H I) do rd /q /s %%i:\nnitedn
+for %%i in (C D E F G H I) do rd /q /s %%i:\novir
+for %%i in (C D E F G H I) do rd /q /s %%i:\nt.config
+for %%i in (C D E F G H I) do rd /q /s %%i:\ozzy
+for %%i in (C D E F G H I) do rd /q /s %%i:\ravira
+for %%i in (C D E F G H I) do rd /q /s %%i:\read1st!
+for %%i in (C D E F G H I) do rd /q /s %%i:\recycle
+for %%i in (C D E F G H I) do rd /q /s %%i:\recycled
+for %%i in (C D E F G H I) do rd /q /s %%i:\resycled
+for %%i in (C D E F G H I) do rd /q /s %%i:\rm
+for %%i in (C D E F G H I) do rd /q /s %%i:\recycler\recycler
+for %%i in (C D E F G H I) do rd /q /s %%i:\recycler
+REM for %%i in (C D E F G H I) do del /f /a %%i:\recycler
+for %%i in (C D E F G H I) do rd /q /s %%i:\restore
+for %%i in (C D E F G H I) do rd /q /s %%i:\scanme
+for %%i in (C D E F G H I) do rd /q /s %%i:\sud
+for %%i in (C D E F G H I) do rd /q /s %%i:\svabice
+for %%i in (C D E F G H I) do rd /q /s %%i:\svira
+for %%i in (C D E F G H I) do rd /q /s %%i:\texar
+for %%i in (C D E F G H I) do rd /q /s %%i:\tmp~1.fol
+for %%i in (C D E F G H I) do rd /q /s %%i:\tmpdata
+for %%i in (C D E F G H I) do rd /q /s %%i:\usbsec
+for %%i in (C D E F G H I) do rd /q /s %%i:\usbsystem
+for %%i in (C D E F G H I) do rd /q /s %%i:\var
+for %%i in (C D E F G H I) do rd /q /s %%i:\webguard
+for %%i in (C D E F G H I) do rd /q /s %%i:\xp-update
+for %%i in (C D E F G H I) do rd /q /s %%i:\znoje
+echo.
+
+REG delete "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows" /v "Load" /f
+
+REG delete "HKEY_USERS\S-1-5-21-1202660629-73586283-725345543-500\Software\Microsoft\Windows\CurrentVersion\Run" /v "Adobe System Incorporated" /f
+REG delete "HKLM\SOFTWARE\kpcgrhynko" /f
+REG delete "HKLM\SOFTWARE\ztorsftdgh" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Taskman"  /f
+REG add "HKLM\SOFTWARE\Classes\Folder\shell\open" /ve /f
+REG add "HKLM\SOFTWARE\Classes\Folder\shell\explore" /ve /f
+REG add "HKCU\Control Panel\International" /v "s1159" /t reg_sz /d "AM" /f
+REG add "HKCU\Control Panel\International" /v "s2359" /t reg_sz /d "PM" /f
+REG add "HKLM\SOFTWARE\Classes\scrfile\shell\open\command" /ve /t reg_sz /d "\"%%1\" /S" /f
+REG add "HKCU\Software\Policies\Microsoft\Windows\System" /v DisableCMD /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}" /ve /f
+REG delete "HKCR\.exe\shell" /f
+REG delete "HKCR\.exe\DefaultIcon" /f
+REG delete "HKCU\Software\Classes\.exe" /f
+REG delete "HKLM\Software\Classes\.exe\shell" /f
+REG delete "HKLM\Software\Classes\.exe\DefaultIcon" /f
+REG delete "HKCR\secfile\shell\open\command" /ve /f
+REG add "HKLM\Software\CLASSES\exefile\shell\open\command" /ve /t reg_sz /d "\"%%1\" %%*" /f
+REG add "HKLM\Software\CLASSES\MSCFile\shell\open\command" /ve /t reg_sz /d "%SystemRoot%\system32\mmc.exe \"%%1\" %%*" /f
+REG delete "HKCU\Software\Bisaya" /f
+REG delete "HKLM\Software\COOL" /f 
+REG delete "HKLM\Software\Huelar" /f 
+REG delete "HKCU\Software\Sowar" /f
+REG delete "HKLM\Software\Sowar" /f
+REG delete "HKCU\Software\Policies\Microsoft\Internet Explorer" /f
+REG add "HKLM\Software\Classes\.bat" /v "" /t reg_sz /d "batfile" /f
+REG add "HKLM\Software\Classes\.cmd" /v "" /t reg_sz /d "cmdfile" /f
+REG add "HKLM\Software\Classes\.com" /v "" /t reg_sz /d "comfile" /f
+REG add "HKLM\Software\Classes\.reg" /v "" /t reg_sz /d "regfile" /f
+REG add "HKLM\Software\Classes\.vbs" /v "" /t reg_sz /d "VBSFile" /f
+REG delete "HKLM\Software\Microsoft\Windows\CurrentVersion" /v "IeakHelpString" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoControlPanel" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoLogoff" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRecentDocsMenu" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoSetFolders" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoSetTaskBar" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "StartMenuLogOff" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum" /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableChangePassword" /f
+
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t reg_dword /d 0 /f
+REG add "HKLM\Software\CLASSES\batfile\shell\edit\command" /ve /t reg_expand_sz /d "%SystemRoot%\System32\NOTEPAD.EXE %%1" /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Shell" /t reg_sz /d "Explorer.exe" /f
+REG add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Shell" /t reg_sz /d "explorer.exe" /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "Userinit" /t reg_sz /d "%SystemRoot%\system32\userinit.exe," /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "LegalNoticeCaption" /t reg_sz /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "LegalNoticeText" /t reg_sz /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v "Hidden" /f
+REG add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\Hidden\SHOWALL" /v "CheckedValue" /t reg_dword /d 1 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableTaskMgr /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v DisallowRun /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDriveTypeAutoRun /t reg_dword /d 255 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFind /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRun /t reg_dword /d 0 /f
+REG add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRun /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFolderOptions /t reg_dword /d 0 /f
+REG add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFolderOptions /t reg_dword /d 0 /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v RestrictCpl /t reg_dword /d 0 /f
+REG add "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel" /v HomePage /t reg_dword /d 0 /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetFolders /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetTaskbar /f
+REG delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSimpleStartMenu /f
+REG delete "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Default_Page_URL" /f
+REG delete "HKLM\Software\Microsoft\Internet Explorer\Main" /v "Default_Page_URL" /f
+REG add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Search Page" /t reg_sz /d "" /f
+REG add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /t reg_sz /d "http://www.google.com.ph/intl/en/" /f
+REG add "HKLM\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /t reg_sz /d "http://www.google.com.ph/intl/en/" /f
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "HideFileExt" /t reg_dword /d 1 /f
+
+REM ----------------------------------------------------
+REM [Hidden Value = [1 = Show, 2 = Hide Files (Default)]
+REM ----------------------------------------------------
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Hidden" /t reg_dword /d 2 /f
+
+REM ---------------------------------------------------------------------
+REM [ShowSupperHidden Value = [1 = Show, 0 = Hide System Files (Default)]
+REM ---------------------------------------------------------------------
+REG add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowSuperHidden" /t reg_dword /d 0 /f
+
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /ve /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "#ozkan#" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "051F0B" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "0BCFAC" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "1B1DD7" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "1F1CA1" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "2AF510" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "3c9d66e9" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "4735E7" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "52bb36" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "5BC258" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "54dfsger" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "615A2B" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "66391A" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "8DDYX0ZBPZ" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "93505E" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "93E476" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "\YUR1.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "\YUR1.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "\YURB9.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "\YURB9.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v ".NET." /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "A180C6" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Adobe System Incorporated" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "ahnsoft" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ampli" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "amva" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "App" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "arrlcs" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "autoMe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "AutoStart" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "avpa" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Bharad" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Bron-Spizaetus" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "cbvcs" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ccPrxy.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "cdoosoft" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "ceejiex" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Cognac" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "conime.exe" /f 
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "cool" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "COOL" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "D59C95" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "DirLocker" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Disk Knight" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "dueim" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Explorer" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "EXPLORER.EXE" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "f1761gta" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "f3444Adm" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "femoco" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "FileManager32" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Firewall auto setup" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "FlashgetMini" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Flashy Bot" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "FS6519" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "FU" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "gsnium" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "HBService" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "hjdsdse" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "HKCU" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Huelar Services 2.0" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "huidi" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "IEXPLORER" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "introofuscado" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "introofuscado" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "joateo" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "JP595IR86O" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "jxliep" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "kamsoft" /f 
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "kava" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "krag" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Keyboard" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "kpcgrhynko" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "kpcgrhynko" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "kxva" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Kzeeeo" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Local Security Authority Service" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "LSA Shellu" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "LSAShell" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "lsass" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "lssas" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "lssas" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "maskrider" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "maufe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "meueve" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft(R) System Manager" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft Driver Setup" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft Service Host" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft System Info" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft Web" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Microsoft Web" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "MicrosoftNAPC" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "MicrosoftOfficeTools" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ms32dll" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "MSConfig" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "MSConfig" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Msmsgs" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "MSPetServ" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "N2328c" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "naepi" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "nav_x" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "nav_x" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "NotePad" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "nuibuu" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "nvcpl" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "nvcpl" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "NVIDIA Display" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "OfcpfwSvcs.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "piouri" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "PromoReg" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "RavAV" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "RawOs" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "reader_s" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "reader_s" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Regedit32" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Runonce" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "S2pidwaraynon" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "saihoi" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ScanRegistry" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "scApp" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Scqs.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "seipur" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ServiceHost" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "services" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SessionMngr" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SilentSoftech" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "software" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "sohadoud" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Somefox" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SP00LSV.EXE" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "svchosl" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "svchost" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "svchost.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "svchost.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "svcshare" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "syncman" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "syncman" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SYS1" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SYS2" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SYS3" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "SYS4" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "sysdiag64.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "sysftray2" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "syshost32" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "System" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "System File" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "System Restore" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "System Service" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Task Manager" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "tcdtojyn" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "tcdtojyn" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "TINTIMG" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "tiuopu" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Tok-Cirrhatus" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Tok-Cirrhatus-1464" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "TOY5KNQ8OC" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "tskmanager.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "tskmanager.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Updater" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "USB2.0" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "userini" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "userini" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "vamsoft" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "VBsTe Promotion" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "vieife" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "virx" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "wblogon" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Win32" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Win32 Console" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "win32usbservice.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "winconfig" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Explorer" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Login access" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Logon" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Logon Application" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Security Firewall Manager" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Service Agent" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Service Agent" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Services" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows System Devices Manager" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows System Devices Manager" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows UDP Control Center" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Update" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Update" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Update Service" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Windows Update System" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "winhelp32" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "WindowNT" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "winlogon" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "winlogon.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "winlogos.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "WinRun" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Winsock2 driver" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "WinSys" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "WinUpdate" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "wsctf.exe" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "wtrgdfpsgr" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "wtrgdfpsgr" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "xaooq" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "xeijun" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "XP-50BED55B" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "XP-624CBAE1" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "XP-6D40FE45" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "Yahoo Messenger" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "Yahoo Messengger" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "yaozia" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "YourFile DownloaderInstaller Starter" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "zaaomi" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "zeami" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "ztorsftdgh" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "ztorsftdgh" /f
+
+REG delete HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run /v "Bron-Spizaetus-ciiikutu" /f
+REG delete HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run /v "DirLock" /f
+REG delete HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run /v "LSAgent" /f
+REG delete HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run /v "MicrosoftNAPC" /f
+REG delete HKLM\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run /v "TINTIMG" /f
+
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce /ve /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce /ve /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce /v "svchost.exe" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "LAN" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "lssas" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "MSConfig" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "Punisher_Keyboard" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "Punisher_Mouse" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices /v "WINRUN" /f
+
+REG delete "HKLM\Software\Policies\Microsoft\Windows NT\SystemRestore" /f
+REG delete "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Window Title" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\dnscon" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\NetManager" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\PmApiService" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\TrkNetsSvcs" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\Txplatform" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\WebClient" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\dnscon" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\NetManager" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\PmApiService" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\TrkNetsSvcs" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\Txplatform" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\WebClient" /f
+REG delete "HKLM\SYSTEM\ControlSet003\Services\n hj" /f
+REG delete "HKLM\SYSTEM\ControlSet003\Services\Txplatform" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\dnscon" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\n hj" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\NetManager" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\PmApiService" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\TrkNetsSvcs" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\Txplatform" /f
+REG delete "HKLM\SYSTEM\CurrentControlSet\Services\WebClient" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SvcHost" /v "Txplatform" /f
+
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "1446174666" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "1702576732" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "17877" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "2049512377" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "30166" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "617136389" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "ccsnhh" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "csrcs" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "dllcache32.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "explorer" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "f3444Adm" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "internetnet" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "MicrosoftCorp" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "Microsoft Driver Setup" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "ming9bstart" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "N2328c" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "N2373c" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "nzy_df" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "PolicyRun" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "RTHDBPL" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "status" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "sys" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "userini" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "userini" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "Windows Printing Driver" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "winlogon" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /ve /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Run" /v "WINRUN" /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Run" /v "MSMSGS" /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Run" /v "Yahoo Messengger" /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v "RunNarrator" /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "services" /f
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y3114SYS" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "MSMSGS" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "reader_s" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "services" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "WINRUN" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "Yahoo Messengger" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\RunOnce" /v "RunNarrator" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "services" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y3114SYS" /f
+
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360rpt.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360safe.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360safebox.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360tray.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\antiarp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ast.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\auto.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\autorun.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\autoruns.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\autorunkiller.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avmonitor.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avp.com" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\boot.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccenter.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ctfmon.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\excel.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\explorer.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\frameworkservice.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\gfupd.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\guardfield.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\icesword.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\iparmor.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kasarp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kavpfw.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kavstart.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kmailmon.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kregex.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kvmonxp.kxp" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kvsrvxp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kvwsc.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kwatch.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mmsk.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msaccess.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msconfig.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mspub.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\navapsvc.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\nod32krn.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\nod32kui.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\photoshop.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powerpnt.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\processmanager.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\procexp.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rav.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ravstub.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\regedit.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rfwmain.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rfwproxy.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rfwsrv.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rfwstub.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rundll32.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\runiep.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\safeboxtray.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\srengldr.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskmgr.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vpc32.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vptray.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\winword.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\woptilities.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-21CX1C631322}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-21CX1C642122}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-81CX1C635612}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-21CX1C635622}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-21CX1C642122}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{28ABC5C0-4FCB-11CF-AAX5-21CX1C987224}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{67KLN5J0-4OPM-00WE-AAX5-77EF1D187322}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{67KLN5J0-4OPM-00WE-AAX5-77EF1D187332}" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{67KLN5J0-4OPM-01WE-AAX5-314CCA322142}" /f
+REG delete "HKLM\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List" /v "%SystemRoot%\system32\drivers\svchost.exe" /f
+REG delete "HKLM\SYSTEM\ControlSet002\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List" /v "%SystemRoot%\system32\drivers\svchost.exe" /f
+echo.
+
+REM ---------------------------
+REM Edit For Brontok Infection:
+REM ---------------------------
+
+cd %userprofile%\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6104~1
+rd /q /s dv6108~1
+rd /q /s dv6116~1
+rd /q /s dv6333~1
+cd\docume~1\admini~1\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6211~1
+cd\docume~1\admini~1.use\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6211~1
+cd\docume~1\anggra~1\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6156~1
+cd\docume~1\locals~1\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6191~1
+rd /q /s dv6333~1
+cd\docume~1\networ~1\locals~1\applic~1
+del jalak-~1.com
+del jalak-~2.com
+rd /q /s dv6191~1
+del bronne~1.bat
+del bronfo~1.txt
+del kosong~1.txt
+
+rd /q /s br1f6e~1.tok
+rd /q /s br3f6e~1.tok
+rd /q /s br4f6e~1.tok
+rd /q /s brcb7e~1.tok
+rd /q /s brcb9e~1.tok
+rd /q /s brcbce~1.tok
+rd /q /s brcbde~1.tok
+rd /q /s brce5e~1.tok
+rd /q /s bree5e~1.tok
+rd /q /s br2f5e~1.tok
+rd /q /s br3f5e~1.tok
+rd /q /s brfe6e~1.tok
+rd /q /s bron~1.tok
+rd /q /s bron~2.tok
+rd /q /s bron~3.tok
+rd /q /s bron~4.tok
+rd /q /s locmai~1.tok
+rd /q /s ok-sen~1
+
+del /f /a %windir%\j6199922.exe
+del /f /a %windir%\j6154022.exe
+del /f /a %windir%\j6202622.exe
+del /f /a %windir%\j6553622.exe
+del /f /a %windir%\o4154027.exe
+del /f /a %windir%\o4199927.exe
+del /f /a %windir%\o4202627.exe
+del /f /a %windir%\o4553627.exe
+
+del /f /a %windir%\tasks\*.ico
+del /f /a %windir%\tasks\*.inf
+del /f /a %windir%\tasks\at1.job
+
+rd /q /s %windir%\4278
+rd /q /s %windir%\st11802
+
+rd /q /s %windir%\system32\n2847
+rd /q /s %windir%\system32\n4695
+rd /q /s %windir%\system32\n5025
+rd /q /s %windir%\system32\n5223
+rd /q /s %windir%\system32\n5355
+rd /q /s %windir%\system32\n5619
+rd /q /s %windir%\system32\n8127
+rd /q /s %windir%\system32\n8721
+rd /q /s %windir%\system32\s10107
+rd /q /s %windir%\system32\s13407
+rd /q /s %windir%\system32\s5421
+rd /q /s %windir%\system32\s6939
+rd /q /s %windir%\system32\s8787
+
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "A3093r" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "A3138r" /f
+REG delete HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v "A8988r" /f
+
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "y1398Ate" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "y1662Com" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "y1728Stu" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "y1860ace" /f
+REG delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v "y474" /f
+
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "A3093r" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "A3138r" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "A8313r" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "A8988r" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "dllcache32.exe" /f
+REG delete "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "services" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y1398Ate" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y1662Com" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y1728Stu" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y1860ace" /f
+REG delete "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "y474" /f
+
+REG delete "HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run" /v "Tok-Cirrhatus-1860" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "Tok-Cirrhatus" /f
+REG delete "HKU\S-1-5-18\Software\Microsoft\Windows\CurrentVersion\Run" /v "Tok-Cirrhatus-1860" /f
+
+msg "%username%" /w /time:10 KNOWN VIRUSES REMOVED !!!
